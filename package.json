@@ -1,0 +1,19 @@
+{
+	"name": "@cabinllc/prettier-config",
+	"version": "1.0.0",
+	"description": "Cabin's Prettier configuration for use across all projects",
+	"main": "prettier-config.json",
+	"repository": "git@github.com:cabinllc/prettier-config.git",
+	"author": "Tyler Albee <tyler@cabin.llc>",
+	"license": "MIT",
+	"files": [
+		"prettier-config.json"
+	],
+	"peerDependencies": {
+		"prettier": "3.1.1",
+		"@ianvs/prettier-plugin-sort-imports": "^4.1.1"
+	},
+    "publishConfig": {
+        "access": "public"
+    }
+}

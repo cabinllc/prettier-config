@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json.schemastore.org/prettierrc",
+    "printWidth": 80,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "semi": true,
+    "tabWidth": 4,
+    "arrowParens": "always",
+    "plugins": [
+        "@ianvs/prettier-plugin-sort-imports"
+    ],
+    "trailingComma": "es5",
+    "importOrder": [
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "^~/",
+        "^[.][.]/",
+        "^[.]/"
+    ],
+    "importOrderParserPlugins": [
+        "typescript",
+        "jsx",
+        "decorators-legacy"
+    ],
+    "importOrderTypeScriptVersion": "4.4.0"
+}
