@@ -4,9 +4,9 @@ A comfortable Prettier configuration for React/Node projects written in TypeScri
 
 ## Features
 
-- Configures tab width, trailing commas, and other formatting rules suitable for React/Node projects using TypeScript.
-- Utilizes `@ianvs/prettier-plugin-sort-imports` for automatic import sorting, following a specified order that enhances code readability and maintenance.
-- Easy to install and integrate into existing or new projects.
+-   Configures tab width, trailing commas, and other formatting rules suitable for React/Node projects using TypeScript.
+-   Utilizes `@ianvs/prettier-plugin-sort-imports` for automatic import sorting, following a specified order that enhances code readability and maintenance.
+-   Easy to install and integrate into existing or new projects.
 
 ## Installation
 
@@ -23,4 +23,3 @@ npm install --save-dev @cabinllc/prettier-config
 ```json
 "@cabinllc/prettier-config"
 ```
-

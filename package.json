@@ -1,34 +1,37 @@
 {
-	"name": "@cabinllc/prettier-config",
-	"version": "2.0.0",
-	"author": "Tyler Albee <tyler@cabin.llc>",
-	"description": "A comfortable Prettier configuration for React/Node projects written in TypeScript.",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/cabinllc/prettier-config"
-	},
-	"homepage": "https://github.com/cabinllc/prettier-config",
-	"license": "MIT",
-	"keywords": [
-		"prettier",
-		"config",
-		"typescript",
-		"react",
-		"node"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"devDependencies": {
-		"@ianvs/prettier-plugin-sort-imports": "^4.1.1",
-		"prettier": "^3.2.5"
-	},
-	"peerDependencies": {
-		"@ianvs/prettier-plugin-sort-imports": "^4.1.1",
-		"prettier": "^3.2.5"
-	},
-	"scripts": {
-		"postinstall": "node postinstall.js"
-	}
+    "name": "@cabinllc/prettier-config",
+    "version": "2.0.0",
+    "author": "Tyler Albee <tyler@cabin.llc>",
+    "description": "A comfortable Prettier configuration for React/Node projects written in TypeScript.",
+    "type": "module",
+    "main": "./index.js",
+    "prettier": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cabinllc/prettier-config"
+    },
+    "homepage": "https://github.com/cabinllc/prettier-config",
+    "license": "MIT",
+    "keywords": [
+        "prettier",
+        "config",
+        "typescript",
+        "react",
+        "node"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+        "prettier": "^3.2.5"
+    },
+    "peerDependencies": {
+        "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+        "prettier": "^3.2.5"
+    },
+    "scripts": {
+        "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+        "postinstall": "node postinstall.js"
+    }
 }

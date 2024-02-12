@@ -4,9 +4,7 @@
 const config = {
     tabWidth: 4,
     trailingComma: "es5",
-    plugins: [
-        "@ianvs/prettier-plugin-sort-imports"
-    ],
+    plugins: ["@ianvs/prettier-plugin-sort-imports"],
     importOrder: [
         ".css$",
         "",
@@ -18,13 +16,10 @@ const config = {
         "",
         "^~/",
         "^[.][.]/",
-        "^[.]/"
+        "^[.]/",
     ],
-    importOrderParserPlugins: [
-        "typescript",
-        "jsx"
-    ],
-    importOrderTypeScriptVersion: "5.3.0"
+    importOrderParserPlugins: ["typescript", "jsx"],
+    importOrderTypeScriptVersion: "5.3.0",
 };
 
 export default config;
