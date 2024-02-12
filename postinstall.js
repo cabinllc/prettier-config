@@ -31,7 +31,11 @@ log(
 );
 
 log(`
-  To use @cabinllc/prettier-config, add the following script to your package.json:
+  To use @cabinllc/prettier-config, add the following to your package.json:
+
+  "prettier": "@cabinllc/prettier-config"
+
+  You can use prettier without installing it yourself:
 
   "scripts": {
     "format": "prettier --write \\"**/*.{js,jsx,ts,tsx}\\""
