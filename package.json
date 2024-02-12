@@ -1,6 +1,6 @@
 {
     "name": "@cabinllc/prettier-config",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "author": "Tyler Albee <tyler@cabin.llc>",
     "description": "A comfortable Prettier configuration for React/Node projects written in TypeScript.",
     "type": "module",
