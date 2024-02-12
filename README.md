@@ -18,8 +18,20 @@ To use this Prettier configuration in your project, follow these steps:
 npm install --save-dev @cabinllc/prettier-config
 ```
 
-2. Create a `.prettierrc` file in the root of your project with the following content **and nothing else**:
+2. Set "prettier" to "@cabinllc/prettier-config" in your project's `package.json` file:
 
 ```json
-"@cabinllc/prettier-config"
+{
+    "prettier": "@cabinllc/prettier-config"
+}
+```
+
+3. Optionally, you can add a script that uses `prettier` without installing it separately:
+
+```json
+{
+    "scripts": {
+        "format": "prettier --write ."
+    }
+}
 ```
