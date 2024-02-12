@@ -1,5 +1,5 @@
 # prettier-config
-Cabin's Prettier configuration for use across all projects
+Public config for using `prettier` in Cabin projects.
 
 ## Usage
 
