@@ -8,7 +8,7 @@
     "prettier": "./index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cabinllc/prettier-config"
+        "url": "git+https://github.com/cabinllc/prettier-config.git"
     },
     "homepage": "https://github.com/cabinllc/prettier-config",
     "license": "MIT",
